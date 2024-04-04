@@ -8,3 +8,7 @@ jobs:
         run: echo "hello world"
       - name: print goodby
         run: echo "Done-Bye"
+      - name: Try multiliner shell
+        run: |
+         echo "First Line"
+         echo "Second Line"
